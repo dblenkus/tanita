@@ -1,0 +1,20 @@
+# Ignore temporary editor files.
+.*.sw[po]
+*~
+.DS_Store
+
+# Ignore binaries.
+*.py[cod]
+*.so
+*.dll
+
+# Tox files
+.tox/
+
+# Ignore files created by setup.py.
+build/
+dist/
+MANIFEST
+*.egg-info
+*.egg
+distribute*.tar.gz
